@@ -1,18 +1,11 @@
 import numpy as np
 from sklearn.preprocessing import LabelBinarizer, OneHotEncoder
-
+import pickle
 
 def process_data(
     X, categorical_features=[], label=None, training=True, encoder=None, lb=None
 ):
-    """ Process the data used in the machine learning pipeline.
-
-    Processes the data using one hot encoding for the categorical features and a
-    label binarizer for the labels. This can be used in either training or
-    inference/validation.
-
-    Note: depending on the type of model used, you may want to add in functionality that
-    scales the continuous data.
+    """ Transform the data used to train the ML models
 
     Inputs
     ------
@@ -50,14 +43,19 @@ def process_data(
     else:
         y = np.array([])
 
+
     X_categorical = X[categorical_features].values
-    X_continuous = X.drop(*[categorical_features], axis=1)
+    X_numerical = X.drop(*[categorical_features], axis=1)
 
     if training is True:
         encoder = OneHotEncoder(sparse=False, handle_unknown="ignore")
         lb = LabelBinarizer()
-        X_categorical = encoder.fit_transform(X_categorical)
+        # Fit and transform the input caterogical columns into numerical values
+        X_categorical = encoder.fit_transform(X_categorical) 
+
         y = lb.fit_transform(y.values).ravel()
+
+
     else:
         X_categorical = encoder.transform(X_categorical)
         try:
@@ -65,6 +63,6 @@ def process_data(
         # Catch the case where y is None because we're doing inference.
         except AttributeError:
             pass
-
-    X = np.concatenate([X_continuous, X_categorical], axis=1)
+        
+    X = np.concatenate([X_numerical, X_categorical], axis=1)
     return X, y, encoder, lb
