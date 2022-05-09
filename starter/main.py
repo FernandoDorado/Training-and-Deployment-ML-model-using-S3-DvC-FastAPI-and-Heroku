@@ -6,18 +6,18 @@ from fastapi import FastAPI
 
 from pydantic import BaseModel, Field
 
-from starter.ml.model import  train_model, inference, compute_model_metrics
-from starter.ml.data import process_data
+from starter.starter.ml.model import  train_model, inference, compute_model_metrics
+from starter.starter.ml.data import process_data
 
 
 # Load models and encoder
-with open("./model/model.pkl", "rb") as file:
+with open("./starter/model/model.pkl", "rb") as file:
     model = pickle.load(file)
 
-with open("./model/encoder.pkl", "rb") as file:
+with open("./starter/model/encoder.pkl", "rb") as file:
     encoder = pickle.load(file)
 
-with open("./model/label_binarizer.pkl", "rb") as file:
+with open("./starter/model/label_binarizer.pkl", "rb") as file:
     lb = pickle.load(file)
 
 # Enable dvc on eroku
