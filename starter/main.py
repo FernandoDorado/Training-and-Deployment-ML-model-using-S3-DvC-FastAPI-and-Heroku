@@ -70,6 +70,7 @@ async def predict(request_data: RequestData):
         "native-country",
     ]
 
+
     # Prepare data for inference
     X, _, _, _ = process_data(
         df_data,
