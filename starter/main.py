@@ -86,7 +86,7 @@ async def predict(request_data: RequestData):
     predictions = inference(model, X)
 
     # Get prediction string response
-    if pred[0] == 1:
+    if predictions[0] == 1:
         predictions = ">50K"
     else:
         predictions = "<=50K"
