@@ -19,9 +19,9 @@ The model has been tested using the 20% of the data.
 ## Metrics
 Precision, recall and F-beta metrics were chosen to evaluate the model's performance:
 
-- Precision: 0.7472698907956318
-- Recall: 0.6098026734563972
-- F-beta: 0.6715737819838766
+- Precision: 0.7761075949367089
+- Recall: 0.6244430299172502
+- F-beta: 0.692063492063492
 
 ## Ethical Considerations
 This dataset was taken from the UCI repository and is already anonymised. However, the inherent bias needs to be carefully analysed.

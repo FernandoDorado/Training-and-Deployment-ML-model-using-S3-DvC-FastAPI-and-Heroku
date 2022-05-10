@@ -50,18 +50,15 @@ def process_data(
     if training is True:
         encoder = OneHotEncoder(sparse=False, handle_unknown="ignore")
         lb = LabelBinarizer()
-        # Fit and transform the input caterogical columns into numerical values
         X_categorical = encoder.fit_transform(X_categorical) 
-
         y = lb.fit_transform(y.values).ravel()
-
 
     else:
         X_categorical = encoder.transform(X_categorical)
         try:
             y = lb.transform(y.values).ravel()
-        # Catch the case where y is None because we're doing inference.
         except AttributeError:
+            # We're doing predictions
             pass
         
     X = np.concatenate([X_numerical, X_categorical], axis=1)
