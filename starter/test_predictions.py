@@ -53,3 +53,5 @@ def test_predict_2():
     response = client.post("/predict", json=request_body)
     assert response.status_code == 200
     assert response.json() == {"predictions": "<=50K"}
+
+test_predict_1

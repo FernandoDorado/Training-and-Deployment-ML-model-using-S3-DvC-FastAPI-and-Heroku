@@ -1,0 +1,16 @@
+{
+    "age": 49,
+    "workclass": "Private",
+    "fnlgt": 187454,
+    "education": "HS-grad",
+    "education-num": 9,
+    "marital-status": "Married-civ-spouse",
+    "occupation": "Sales",
+    "relationship": "Husband",
+    "race": "White",
+    "sex": "Male",
+    "capital-gain": 99999,
+    "capital-loss": 0,
+    "hours-per-week": 65,
+    "native-country": "United-States"
+}
