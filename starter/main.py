@@ -80,6 +80,7 @@ async def predict(request_data: RequestData):
         encoder=encoder,
         lb=lb,
     )
+    
 
     # Run model
     predictions = inference(model, X)
