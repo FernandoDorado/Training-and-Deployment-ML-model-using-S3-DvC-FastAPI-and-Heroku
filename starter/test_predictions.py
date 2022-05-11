@@ -5,13 +5,13 @@ from main import app
 client = TestClient(app)
 
 
-def test_root():
+def test_hello_world():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {"message": "welcome to the root path"}
+    assert response.json() == {"message": "Hello World!"}
 
 
-def test_predict_1():
+def test_predict():
     request_body = {
         "age": 49,
         "workclass": "Private",
@@ -30,28 +30,6 @@ def test_predict_1():
     }
     response = client.post("/predict", json=request_body)
     assert response.status_code == 200
-    assert response.json() == {"model_prediction": ">50K"}
+    assert response.json() == {"Model Prediction (Salary): ": ">50K"}
 
-
-def test_predict_2():
-    request_body = {
-        "age": 60,
-        "workclass": "Local-gov",
-        "fnlgt": 98350,
-        "education": "Some-college",
-        "education-num": 10,
-        "marital-status": "Married-civ-spouse",
-        "occupation": "Other-service",
-        "relationship": "Husband",
-        "race": "Asian-Pac-Islander",
-        "sex": "Male",
-        "capital-gain": 0,
-        "capital-loss": 0,
-        "hours-per-week": 60,
-        "native-country": "Philippines"
-    }
-    response = client.post("/predict", json=request_body)
-    assert response.status_code == 200
-    assert response.json() == {"predictions": "<=50K"}
-
-test_predict_1
+test_predict
