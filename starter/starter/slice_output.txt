@@ -1,0 +1,80 @@
+Slice -> Column:  Some-college
+Precision:0.7545
+Recall:0.4549
+FBeta:0.5676
+
+Slice -> Column:  HS-grad
+Precision:0.8596
+Recall:0.2841
+FBeta:0.4270
+
+Slice -> Column:  Bachelors
+Precision:0.7495
+Recall:0.7911
+FBeta:0.7697
+
+Slice -> Column:  Masters
+Precision:0.8263
+Recall:0.8502
+FBeta:0.8381
+
+Slice -> Column:  Assoc-acdm
+Precision:0.7632
+Recall:0.6170
+FBeta:0.6824
+
+Slice -> Column:  7th-8th
+Precision:0.0000
+Recall:0.0000
+FBeta:0.0000
+
+Slice -> Column:  11th
+Precision:1.0000
+Recall:0.2727
+FBeta:0.4286
+
+Slice -> Column:  Assoc-voc
+Precision:0.7561
+Recall:0.4921
+FBeta:0.5962
+
+Slice -> Column:  Prof-school
+Precision:0.8041
+Recall:0.9286
+FBeta:0.8619
+
+Slice -> Column:  9th
+Precision:1.0000
+Recall:0.3333
+FBeta:0.5000
+
+Slice -> Column:  5th-6th
+Precision:1.0000
+Recall:0.5000
+FBeta:0.6667
+
+Slice -> Column:  10th
+Precision:1.0000
+Recall:0.0833
+FBeta:0.1538
+
+Slice -> Column:  Doctorate
+Precision:0.8548
+Recall:0.9298
+FBeta:0.8908
+
+Slice -> Column:  12th
+Precision:1.0000
+Recall:0.4000
+FBeta:0.5714
+
+Slice -> Column:  1st-4th
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Preschool
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
