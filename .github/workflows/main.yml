@@ -64,5 +64,5 @@ jobs:
 
       - name: Run Tests
         run: |
-          pytest starter/starter/ml/tests.py 
+          pytest 
           echo Tests passed! 100%
