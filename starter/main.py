@@ -6,8 +6,8 @@ from fastapi import FastAPI
 
 from pydantic import BaseModel, Field
 
-from starter.starter.ml.model import  train_model, inference, compute_model_metrics
-from starter.starter.ml.data import process_data
+from starter.ml.model import  train_model, inference, compute_model_metrics
+from starter.ml.data import process_data
 
 
 # Load models and encoder
