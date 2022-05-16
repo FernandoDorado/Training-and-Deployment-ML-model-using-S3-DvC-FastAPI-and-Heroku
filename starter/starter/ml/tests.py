@@ -51,6 +51,19 @@ def test_transform_data():
     return X_train, y_train
 
 
+def test_import_data(data):
+    X,y = data
+    assert X.shape[0] != 0
+    assert y.shape[0] != 0
+
+def test_dimensions(data):
+    X,y = data
+    assert X.shape[0] == y.shape[0]
+
+def test_model(dummy_model):
+    assert type(dummy_model) == DummyClassifier
+
+
 def test_train_model(data):
     """Test train_model
     """
@@ -58,13 +71,11 @@ def test_train_model(data):
     model = train_model(X, y)
     assert type(model) == RandomForestClassifier
 
-
 def test_predictions(dummy_model, data):
     X, y = data
     y_pred = inference(dummy_model, X)
     assert type(y_pred) == np.ndarray
     assert len(y) == len(y_pred)
-
 
 
 def test_metrics(test_transform_data):
