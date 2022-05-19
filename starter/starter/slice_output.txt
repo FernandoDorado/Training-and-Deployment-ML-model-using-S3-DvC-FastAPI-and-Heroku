@@ -1,0 +1,495 @@
+Slice -> Column:  Private
+Precision:0.7997
+Recall:0.5904
+FBeta:0.6793
+
+Slice -> Column:  State-gov
+Precision:0.7286
+Recall:0.6986
+FBeta:0.7133
+
+Slice -> Column:  Self-emp-not-inc
+Precision:0.7228
+Recall:0.4650
+FBeta:0.5659
+
+Slice -> Column:  Self-emp-inc
+Precision:0.7899
+Recall:0.7966
+FBeta:0.7932
+
+Slice -> Column:  Federal-gov
+Precision:0.7879
+Recall:0.7429
+FBeta:0.7647
+
+Slice -> Column:  Local-gov
+Precision:0.7778
+Recall:0.7000
+FBeta:0.7368
+
+Slice -> Column:  ?
+Precision:0.7826
+Recall:0.4286
+FBeta:0.5538
+
+Slice -> Column:  Without-pay
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Some-college
+Precision:0.7545
+Recall:0.4549
+FBeta:0.5676
+
+Slice -> Column:  HS-grad
+Precision:0.8596
+Recall:0.2841
+FBeta:0.4270
+
+Slice -> Column:  Bachelors
+Precision:0.7495
+Recall:0.7911
+FBeta:0.7697
+
+Slice -> Column:  Masters
+Precision:0.8263
+Recall:0.8502
+FBeta:0.8381
+
+Slice -> Column:  Assoc-acdm
+Precision:0.7632
+Recall:0.6170
+FBeta:0.6824
+
+Slice -> Column:  7th-8th
+Precision:0.0000
+Recall:0.0000
+FBeta:0.0000
+
+Slice -> Column:  11th
+Precision:1.0000
+Recall:0.2727
+FBeta:0.4286
+
+Slice -> Column:  Assoc-voc
+Precision:0.7561
+Recall:0.4921
+FBeta:0.5962
+
+Slice -> Column:  Prof-school
+Precision:0.8041
+Recall:0.9286
+FBeta:0.8619
+
+Slice -> Column:  9th
+Precision:1.0000
+Recall:0.3333
+FBeta:0.5000
+
+Slice -> Column:  5th-6th
+Precision:1.0000
+Recall:0.5000
+FBeta:0.6667
+
+Slice -> Column:  10th
+Precision:1.0000
+Recall:0.0833
+FBeta:0.1538
+
+Slice -> Column:  Doctorate
+Precision:0.8548
+Recall:0.9298
+FBeta:0.8908
+
+Slice -> Column:  12th
+Precision:1.0000
+Recall:0.4000
+FBeta:0.5714
+
+Slice -> Column:  1st-4th
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Preschool
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Divorced
+Precision:0.8250
+Recall:0.3204
+FBeta:0.4615
+
+Slice -> Column:  Married-civ-spouse
+Precision:0.7765
+Recall:0.6626
+FBeta:0.7150
+
+Slice -> Column:  Never-married
+Precision:0.9268
+Recall:0.3689
+FBeta:0.5278
+
+Slice -> Column:  Separated
+Precision:1.0000
+Recall:0.4211
+FBeta:0.5926
+
+Slice -> Column:  Widowed
+Precision:1.0000
+Recall:0.1579
+FBeta:0.2727
+
+Slice -> Column:  Married-spouse-absent
+Precision:1.0000
+Recall:0.2500
+FBeta:0.4000
+
+Slice -> Column:  Married-AF-spouse
+Precision:1.0000
+Recall:0.0000
+FBeta:0.0000
+
+Slice -> Column:  Adm-clerical
+Precision:0.6875
+Recall:0.4583
+FBeta:0.5500
+
+Slice -> Column:  Exec-managerial
+Precision:0.8174
+Recall:0.7557
+FBeta:0.7853
+
+Slice -> Column:  Machine-op-inspct
+Precision:0.7500
+Recall:0.2553
+FBeta:0.3810
+
+Slice -> Column:  Craft-repair
+Precision:0.8421
+Recall:0.3536
+FBeta:0.4981
+
+Slice -> Column:  Prof-specialty
+Precision:0.7855
+Recall:0.8036
+FBeta:0.7945
+
+Slice -> Column:  Sales
+Precision:0.7438
+Recall:0.6198
+FBeta:0.6761
+
+Slice -> Column:  Handlers-cleaners
+Precision:0.6667
+Recall:0.3333
+FBeta:0.4444
+
+Slice -> Column:  Other-service
+Precision:1.0000
+Recall:0.1923
+FBeta:0.3226
+
+Slice -> Column:  Protective-serv
+Precision:0.7273
+Recall:0.3810
+FBeta:0.5000
+
+Slice -> Column:  Priv-house-serv
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Transport-moving
+Precision:0.8261
+Recall:0.2969
+FBeta:0.4368
+
+Slice -> Column:  ?
+Precision:0.7826
+Recall:0.4286
+FBeta:0.5538
+
+Slice -> Column:  Farming-fishing
+Precision:0.5455
+Recall:0.2143
+FBeta:0.3077
+
+Slice -> Column:  Tech-support
+Precision:0.7857
+Recall:0.6471
+FBeta:0.7097
+
+Slice -> Column:  Armed-Forces
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Not-in-family
+Precision:0.8947
+Recall:0.3617
+FBeta:0.5152
+
+Slice -> Column:  Wife
+Precision:0.7402
+Recall:0.6573
+FBeta:0.6963
+
+Slice -> Column:  Husband
+Precision:0.7809
+Recall:0.6641
+FBeta:0.7178
+
+Slice -> Column:  Unmarried
+Precision:0.8462
+Recall:0.2444
+FBeta:0.3793
+
+Slice -> Column:  Own-child
+Precision:1.0000
+Recall:0.1765
+FBeta:0.3000
+
+Slice -> Column:  Other-relative
+Precision:1.0000
+Recall:0.3750
+FBeta:0.5455
+
+Slice -> Column:  White
+Precision:0.7869
+Recall:0.6050
+FBeta:0.6841
+
+Slice -> Column:  Black
+Precision:0.7708
+Recall:0.5692
+FBeta:0.6549
+
+Slice -> Column:  Other
+Precision:1.0000
+Recall:0.6667
+FBeta:0.8000
+
+Slice -> Column:  Asian-Pac-Islander
+Precision:0.7667
+Recall:0.7419
+FBeta:0.7541
+
+Slice -> Column:  Amer-Indian-Eskimo
+Precision:0.7143
+Recall:0.5000
+FBeta:0.5882
+
+Slice -> Column:  Female
+Precision:0.7600
+Recall:0.4893
+FBeta:0.5953
+
+Slice -> Column:  Male
+Precision:0.7891
+Recall:0.6293
+FBeta:0.7002
+
+Slice -> Column:  United-States
+Precision:0.7870
+Recall:0.6000
+FBeta:0.6809
+
+Slice -> Column:  Mexico
+Precision:1.0000
+Recall:0.3333
+FBeta:0.5000
+
+Slice -> Column:  Puerto-Rico
+Precision:0.8571
+Recall:1.0000
+FBeta:0.9231
+
+Slice -> Column:  El-Salvador
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  ?
+Precision:0.7407
+Recall:0.6452
+FBeta:0.6897
+
+Slice -> Column:  Columbia
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Poland
+Precision:0.5000
+Recall:0.5000
+FBeta:0.5000
+
+Slice -> Column:  Cambodia
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Germany
+Precision:0.7500
+Recall:0.6923
+FBeta:0.7200
+
+Slice -> Column:  Philippines
+Precision:1.0000
+Recall:0.6875
+FBeta:0.8148
+
+Slice -> Column:  Canada
+Precision:0.6250
+Recall:0.6250
+FBeta:0.6250
+
+Slice -> Column:  Ecuador
+Precision:1.0000
+Recall:0.5000
+FBeta:0.6667
+
+Slice -> Column:  Italy
+Precision:0.7500
+Recall:0.7500
+FBeta:0.7500
+
+Slice -> Column:  Cuba
+Precision:1.0000
+Recall:0.8000
+FBeta:0.8889
+
+Slice -> Column:  Iran
+Precision:0.5000
+Recall:0.4000
+FBeta:0.4444
+
+Slice -> Column:  Jamaica
+Precision:0.0000
+Recall:1.0000
+FBeta:0.0000
+
+Slice -> Column:  Haiti
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  South
+Precision:0.2500
+Recall:0.5000
+FBeta:0.3333
+
+Slice -> Column:  Taiwan
+Precision:0.8000
+Recall:1.0000
+FBeta:0.8889
+
+Slice -> Column:  Dominican-Republic
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Ireland
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Japan
+Precision:0.7500
+Recall:0.7500
+FBeta:0.7500
+
+Slice -> Column:  Scotland
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  India
+Precision:0.7778
+Recall:0.8750
+FBeta:0.8235
+
+Slice -> Column:  Trinadad&Tobago
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Hungary
+Precision:1.0000
+Recall:0.5000
+FBeta:0.6667
+
+Slice -> Column:  England
+Precision:0.7500
+Recall:0.7500
+FBeta:0.7500
+
+Slice -> Column:  Laos
+Precision:1.0000
+Recall:0.0000
+FBeta:0.0000
+
+Slice -> Column:  Hong
+Precision:0.5000
+Recall:1.0000
+FBeta:0.6667
+
+Slice -> Column:  Greece
+Precision:1.0000
+Recall:0.0000
+FBeta:0.0000
+
+Slice -> Column:  Portugal
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Guatemala
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  China
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  France
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Nicaragua
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Vietnam
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Thailand
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Peru
+Precision:1.0000
+Recall:0.0000
+FBeta:0.0000
+
+Slice -> Column:  Honduras
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
+Slice -> Column:  Yugoslavia
+Precision:1.0000
+Recall:1.0000
+FBeta:1.0000
+
