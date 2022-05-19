@@ -118,7 +118,6 @@ Precision:1.0000
 Recall:1.0000
 FBeta:1.0000
 
-<<<<<<< HEAD
 Slice -> Column:  Divorced
 Precision:0.8250
 Recall:0.3204
@@ -494,5 +493,3 @@ Precision:1.0000
 Recall:1.0000
 FBeta:1.0000
 
-=======
->>>>>>> 6335363e73256a26d70d77435ec8030d4908c320
